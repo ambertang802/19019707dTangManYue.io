@@ -14,12 +14,12 @@
     text-align:center;
 }
 
-.title{
+.title, .jumbotron th{
     text-align: center;
     font-family:fantasy;
 }
 
-.col-md-8 p,.text-center p{
+.col-md-8 p,.jumbotron td{
     font-family:sans-serif;
 }
 
