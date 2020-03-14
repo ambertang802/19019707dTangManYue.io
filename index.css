@@ -4,9 +4,12 @@
     background-color:#e9ecef;
     border-radius:.3rem;
 }
-@media (min-width:576px){
+@media (max-width:576px){
     .jumbotron{
         padding:4rem 2rem;
+    }
+    .img, .col-md-4{
+        margin: 0 15% 0 25%;
     }
 }
 .jumbotron-fluid{
@@ -18,12 +21,12 @@
     text-align:center;
 }
 
-.title, .jumbotron th{
+.title{
     text-align: center;
     font-family:fantasy;
 }
 
-.col-md-8 p,.jumbotron td{
+.col-md-8 p{
     font-family:sans-serif;
 }
 
