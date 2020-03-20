@@ -56,3 +56,21 @@ html {
 body {
     position: relative; 
   }
+#About_me{
+    background:#ffffff;
+    height:auto;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+#Education{
+    background:#f0f0f05d;
+    height:auto;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+#Hobbies{
+    background:#ffffff85;
+    height:auto; 
+    padding-top:70px; 
+    padding-bottom:70px;
+}
