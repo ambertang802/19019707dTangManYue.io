@@ -1,13 +1,13 @@
 
-.jumbotron{
-    padding:2rem 1rem;
-    margin-bottom:2rem;
+.banner{
+    padding-top:70px;
+    padding-bottom:25px;
     background-color:#e9ecef;
     border-radius:.3rem;
 }
 @media (max-width:540px){
-    .jumbotron{
-        padding:4rem 2rem;
+    .banner{
+        padding-top: 7rem;
     }
     .img{
     margin: 15 15% 0 25%;      
@@ -18,20 +18,19 @@
     .col-md-8 h3{
         font-size:1rem; 
     }  
+    .banner h1{
+        font-size:1.5rem; 
+    }
 }
 @media (max-width:720px){
-    .jumbotron{
-        padding:4rem 2rem;
+    .banner{
+        padding-top: 5rem;
     }
     .img, .col-md-4{
         margin: 0 10% 5% 16%;
     }
 }
-.jumbotron-fluid{
-    padding-right:0;
-    padding-left:0;
-    border-radius:0;
-} 
+
 .text-center{
     text-align:center;
 }
@@ -59,14 +58,18 @@ body {
 #About_me{
     background:#ffffff;
     height:auto;
+    padding-top:70px;
     padding-bottom:70px;
 }
 #Education{
     background:#f0f0f05d;
     height:auto;
+    padding-top:50px;
     padding-bottom:50px;
 }
 #Hobbies{
     background:#ffffff85;
     height:auto; 
+    padding-top:70px;
     padding-bottom:70px;
+}
