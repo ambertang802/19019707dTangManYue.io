@@ -4,17 +4,18 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>Amber Tang's homepage</title>
-      <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
       <link rel="stylesheet" href="index.css">
-      <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
-      <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
    </head>
-   <body>
-      <div class="jumbotron text-center" style="margin-bottom:0">
+   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <div class="jumbotron text-center" style="margin-bottom:0; padding-top:100px">
          <h1>Welcome to Amber's page</h1>
       </div>
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
          <a class="navbar-brand" href="#">Tang Man Yue</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
          <span class="navbar-toggler-icon"></span>
@@ -34,7 +35,7 @@
          </div>
       </nav>
       <br><br>
-      <div id="About_me" style="background:#ffffff;height:auto;">
+      <div id="About_me" style="background:#ffffff;height:auto; padding-top:70px; padding-bottom:70px">
          <h1 class="title">About Me</h1>
          <div class="container mt-5">
             <div class="row">
@@ -52,8 +53,7 @@
             </div>
          </div>
       </div>
-      <br><br>
-      <div id="Education" style="background:#f0f0f05d;height:auto;">
+      <div id="Education" style="background:#f0f0f05d;height:auto; padding-top:50px; padding-bottom:50px">
          <br>    
          <h1 class="title">Education</h1>
          <br>
@@ -96,13 +96,11 @@
                   <p>Now, I am learning about security and different program languages such as PHP, Ajax, CSS and so on. Besides, I develop some projects which is made use of these languages.
                      <br><br>In the future, I will get certification of Bachelor of Science (Hons) Degree in Information Security.
                   </p>
-                  <br><br>
                </div>
             </div>
          </div>
       </div>
-      <br><br>
-      <div id="Hobbies" style="background:#ffffff85;height:auto;">
+      <div id="Hobbies" style="background:#ffffff85;height:auto; padding-top:70px; padding-bottom:70px">
          <h1 class="title">Hobbies</h1>
          <br>
          <div class="col-md-8 about-text">
@@ -142,7 +140,18 @@
             </a>
          </div>
          <br>
+         <div class="col-md-8 about-text">
+         <p> This is my favorite song. This song called Waste It On Me feat. BTS.</p>
+         </div>
+         <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WP7duqy60h8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
       </div>
+      <script>
+         $(document).ready(function(){
+           $('body').scrollspy({target: ".navbar", offset: 50});   
+         });
+      </script>
    </body>
    <footer>
       <p align="center">Contact Me<br>Email: ambertang802@gmail.com<br>Phone: +852 66242495</p>
