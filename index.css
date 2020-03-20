@@ -5,17 +5,26 @@
     background-color:#e9ecef;
     border-radius:.3rem;
 }
-@media (max-width:576px){
-    .img, .col-md-4{
-        margin: 0 15% 0 25%;
+@media (max-width:540px){
+    .jumbotron{
+        padding:4rem 2rem;
+    }
+    .img{
+    margin: 15 15% 0 25%;      
+    }
+    .col-md-4{
+        margin: 0 10% 5% 16%;
     }
     .col-md-8 h3{
         font-size:1rem; 
     }  
 }
-@media (max-width:768px){
+@media (max-width:720px){
+    .jumbotron{
+        padding:4rem 2rem;
+    }
     .img, .col-md-4{
-        margin: 0 15% 0 25%;
+        margin: 0 10% 5% 16%;
     }
 }
 .jumbotron-fluid{
