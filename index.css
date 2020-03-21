@@ -19,7 +19,9 @@
         padding-top: 7rem;
     }
 	.img {
-		margin: 15 15% 0 25%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
 	}
 	.col-md-4 {
 		margin: 0 10% 5% 16%;
