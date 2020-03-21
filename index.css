@@ -5,7 +5,7 @@
 	border-radius: .3rem;
 }
 @media (min-width:720px) {
-    .carousel,.embed-responsive {
+    .carousel {
         width: 70%;
         text-align: center;
 	    margin-left: auto;
@@ -30,7 +30,7 @@
 	.banner h1 {
 		font-size: 1.3rem;
     }
-    .carousel,.embed-responsive {
+    .carousel {
         width: 100%;
     }
 }
